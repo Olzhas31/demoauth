@@ -1,15 +1,14 @@
 package kaz.suleimenov.demoauth.controller;
 
 import kaz.suleimenov.demoauth.configs.jwt.JwtUtils;
-import kaz.suleimenov.demoauth.model.ERole;
 import kaz.suleimenov.demoauth.model.Role;
+import kaz.suleimenov.demoauth.model.ERole;
 import kaz.suleimenov.demoauth.model.User;
 import kaz.suleimenov.demoauth.pojo.JwtResponse;
 import kaz.suleimenov.demoauth.pojo.LoginRequest;
 import kaz.suleimenov.demoauth.pojo.MessageResponse;
 import kaz.suleimenov.demoauth.pojo.SignupRequest;
 import kaz.suleimenov.demoauth.repository.RoleRepository;
-import kaz.suleimenov.demoauth.repository.UserRepository;
 import kaz.suleimenov.demoauth.service.UserDetailsImpl;
 import kaz.suleimenov.demoauth.service.UserDetailsServiceImpl;
 import lombok.AllArgsConstructor;
